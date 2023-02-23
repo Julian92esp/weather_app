@@ -1,0 +1,74 @@
+/* INDEX 
+=========
+
+1. MASTER
+2. MAIN
+  2.1 Conversions
+
+/* 1. MASTER */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 20px;
+}
+body {
+  background-image: url(../img/moroccan-flower.png);
+}
+/* 2. MAIN */
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 10px;
+  width: 1100px;
+  height: 300px;
+  margin-top: 200px;
+}
+@media (max-width: 1130px) {
+  #container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 500px;
+  }
+}
+/* 2.1 Conversions */
+.celsius {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: lightblue;
+  padding: 50px;
+  height: 80px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.fah {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: lightblue;
+  padding: 50px;
+  height: 80px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.kelvin {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: lightblue;
+  padding: 50px;
+  height: 80px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+label {
+  text-transform: uppercase;
+}
+input {
+  margin-top: 5px;
+}
